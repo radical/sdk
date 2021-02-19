@@ -294,6 +294,8 @@ namespace Microsoft.NET.Publish.Tests
 
             // Please keep list below sorted and de-duplicated
             List<string> expectedOutput = new List<string> () {
+                    "ILLink : Trim analysis warning IL2067: System.ComponentModel.LicenseManager.CreateWithContext(",
+                    "ILLink : Trim analysis warning IL2072: System.ComponentModel.LicenseManager.ValidateInternalRecursive(",
                     "ILLink : Trim analysis warning IL2072: System.Diagnostics.Tracing.EventSource.EnsureDescriptorsInitialized(",
                     "ILLink : Trim analysis warning IL2026: System.Resources.ManifestBasedResourceGroveler.CreateResourceSet(Stream,Assembly",
                     "ILLink : Trim analysis warning IL2070: System.Diagnostics.Tracing.NullableTypeInfo.NullableTypeInfo(Type,List<Type>",
